@@ -5,6 +5,9 @@ This bot was written in a few hours. There are no tests and it has not been cert
 
 Also note this project is written in Javascript using npm packages which should be consider insecure.
 
+## DEMO:
+There is a demo bot running at [@slp_div_bot](https://telegram.me/@slp_div_bot)
+
 ### TODO:
 - Cleanup code (remove duplication and minified chunks)
 - Tests
