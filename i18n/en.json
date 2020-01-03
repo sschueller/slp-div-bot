@@ -1,0 +1,7 @@
+{
+	"error_no_wallet_file": "Wallet missing: %s , create one first with 'node create-wallet.js'",
+	"memo_single_trans_bch": "Paying {{dividendAmount}} BCH to holders of SLP Token ID {{targetTokenId}} aka {{targetTokenName}} with a balance of at least {{minRequired}} tokens ({{totalAddresses}} total)",
+	"memo_single_trans_slp": "Paying {{dividendAmount}} SLP Token ID '{{airdropTokenId}}' aka '{{airdropTokenName}}' to holders of SLP Token ID '{{targetTokenId}}' aka '{{targetTokenName}}' with a balance of at least {{minRequired}} tokens ({{totalAddresses}} total)",
+	"memo_multi_trans_bch": "Transaction {{m}} of {{numTransactions}}: Paying {{dividendAmount}} total BCH to holders of SLP Token ID {{targetTokenId}} aka {{targetTokenName}} with a balance of at least {{minRequired}} tokens ({{totalAddresses}} total)",
+	"memo_multi_trans_slp": "Transaction {{m}} of {{numTransactions}}: Paying {{dividendAmount}} total SLP Token ID '{{airdropTokenId}}' aka '{{airdropTokenName}}' to holders of SLP Token ID '{{targetTokenId}}' aka '{{targetTokenName}}' with a balance of at least {{minRequired}} tokens ({{totalAddresses}} total)"
+}
