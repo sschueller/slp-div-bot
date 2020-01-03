@@ -9,6 +9,7 @@ Also note this project is written in Javascript using npm packages which should 
 There is a demo bot running at [@slp_div_bot](https://telegram.me/@slp_div_bot)
 
 ### TODO:
+- If no addresses match min/max reply to telegram user.
 - Cleanup code (remove duplication and minified chunks)
 - Tests
 
