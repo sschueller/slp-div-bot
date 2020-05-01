@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - slp-sdk > babel-register > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > slpjs > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > slpjs > bitcore-lib-cash > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > slpjs > bitcore-lib-cash > bitcore-lib > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > standard > eslint > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > standard > eslint-plugin-import > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > standard > eslint > inquirer > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > standard > eslint > table > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T05:06:33.386Z'
